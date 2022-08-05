@@ -44,13 +44,18 @@
         </svg>
       </button>
     </div>
-    <div class="flex flex-col items-center mt-4 md:mt-0">Dummy Text</div>
+
    </div>
   </div>
 </template>
 
 <script>
-export default {};
+
+export default {
+  components: {
+  
+  }
+};
 </script>
 
 <style>

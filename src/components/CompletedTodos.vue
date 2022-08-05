@@ -2,8 +2,8 @@
   <div class="bg-white">
     <div class="container px-6 py-5 mx-auto mt-4">
       <div class="md:flex md:items-center md:justify-between">
-        <div class="flex flex-col items-center mt-4 md:mt-0">
-          <div class="flex flex-row gap-5 w-full lg:max-w-md">
+        <div class="flex flex-col w-full max-w-3xl mt-4 md:mt-0">
+          <div class="flex gap-5 w-full">
             <h4 class="text-lg" style="color: #1d262c">Completed</h4>
             <div class="mt-px">
               <div
@@ -17,7 +17,7 @@
             </div>
           </div>
           <!-- Todo Details 1 -->
-          <div class="flex flex-row gap-7 mt-5 border-b border-b-gray-100">
+          <div class="flex flex-row justify-between  mt-5 border-b border-b-gray-100">
             <div class="flex gap-1 mb-px">
               <svg
                 width="9"
@@ -105,7 +105,7 @@
             </div>
           </div>
           <!-- Todo Details 2 -->
-         <div class="flex flex-row gap-7 mt-5 border-b border-b-gray-100">
+         <div class="flex flex-row justify-between  mt-5 border-b border-b-gray-100">
             <div class="flex gap-1 mb-px">
               <svg
                 width="9"
@@ -193,7 +193,7 @@
             </div>
           </div>
           <!-- Todo Details 3 -->
-          <div class="flex flex-row gap-7 mt-5 border-b border-b-gray-100">
+          <div class="flex flex-row justify-between  mt-5 border-b border-b-gray-100">
             <div class="flex gap-1 mb-px">
               <svg
                 width="9"
