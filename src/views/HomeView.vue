@@ -4,6 +4,7 @@
     <HomeHeader />
     <Todos />
     <CompletedTodos />
+
     </div>
     <div class="flex flex-col items-center mt-4 md:mt-0">
       <DummyText />
@@ -16,14 +17,16 @@
 import HomeHeader from "@/components/HomeHeader.vue";
 import Todos from "@/components/Todos.vue";
 import CompletedTodos from "@/components/CompletedTodos.vue";
-import DummyText from '@/components/DummyText.vue'
+import DummyText from '@/components/DummyText.vue';
+
 export default {
   name: "HomeView",
   components: {
     HomeHeader,
     Todos,
     CompletedTodos,
-    DummyText
+    DummyText,
+    
   },
 };
 </script>

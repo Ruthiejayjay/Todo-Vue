@@ -6,6 +6,7 @@
         You’ve got <span style="color: #f3477a"> 7 task </span> today
       </h2>
       <button
+        @click="toggleForm"
         class="rounded-lg text-white px-5 py-px text-sm"
         style="background-color: #884cb2"
       >
@@ -47,13 +48,25 @@
 
    </div>
   </div>
+  <AddTodo v-if="showAddTodo" />
 </template>
 
 <script>
-
+import AddTodo from '@/components/AddTodo.vue';
 export default {
   components: {
-  
+  AddTodo
+  },
+  data() {
+    return{
+      showAddTodo: false
+    }
+    
+  },
+  methods: {
+    toggleForm() {
+      this.showAddTodo = !this.showAddTodo
+    }
   }
 };
 </script>
